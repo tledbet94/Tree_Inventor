@@ -55,34 +55,67 @@ body {
     }
 }
 
+.tight-table {
+    /* By default, many Bootstrap table styles use border-collapse: collapse.
+       We need 'separate' to enable border-spacing. */
+    border-collapse: separate !important;
+    /* border-spacing: horizontal vertical */
+    /* Example: 0.5rem horizontally and 0.3rem vertically: */
+    border-spacing: 0.5rem 0.3rem;
+    /* Or use the same spacing on both axes: border-spacing: 0.5rem; */
+}
+
+/* Then style the <td> elements as you already do: */
+.tight-table td {
+    background-color: #4B4158;
+    border-radius: 3vh;
+    color: #F2F0E5;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    /* You can also adjust left/right padding if you want
+       space inside each cell horizontally: */
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+    line-height: 1.0;
+    width: auto;
+}
+
+
 .info-div {
-    background-color: #3a3858;
-    border: 3px solid #868188;
-    border-radius: 15px;
-    box-shadow: inset -6px -6px 15px #666092;
+    background-color: #212123;
+    border: 3px solid #45444F;
+    border-radius: 0px;
+    box-shadow: inset -6px -6px 15px #45444F;
     color: #f2f0e5;
     margin: 0;
     padding: 0.5vh;
-    height: 12vh;
+
+    /* Let the container auto-adjust, but cap at 24vh */
+    height: auto;          /* container grows/shrinks with content */
+    max-height: 12vh;      /* cap the total height */
 }
 
 /* Adjust for smaller screens (e.g., iPhone) */
 @media (max-width: 1000px) {
     .info-div {
-        height: 18vh; /* Adjust height for smaller screens */
+        /* Same logic, but a smaller cap */
+        height: auto;
+        max-height: 12vh;
     }
 
     .info-div .row,
     .info-div .col {
-    margin: 0 !important;
-    padding: 0.1vh !important;
+        margin: 0 !important;
+        padding: 0.1vh !important;
+    }
 }
-}
+
 
 
 
 .info-text-label {
-    font-size: 1.75vh;
+    font-size: auto;
     /* colors and ofset create 3d effect */
     text-shadow:
         1px 1px 0px #9a9a97,
@@ -92,8 +125,8 @@ body {
 }
 
 .info-text-actual {
-    font-size: 1.75vh;
-    text-align: left;
+    font-size: auto;
+    text-align: center;
     /* colors and ofset create 3d effect */
     text-shadow:
         1px 1px 0px #9a9a97,

@@ -1,33 +1,75 @@
 from dash import dcc, html
 import dash_bootstrap_components as dbc
 
-node_label = html.P('Label:', id='info-label', className='info-text-label')
-node_name = html.P(id='node-name', className='info-text-actual')
+# Table cells (TDs)
+node_label = html.Td('Label', id='info-label', className='info-text-label',
+                     style={'backgroundColor': '#868188'})
+node_name = html.Td(id='node-name', className='info-text-actual',
+                    style={'backgroundColor': '#868188'})
 
-weight_label = html.P('Weight:', className='info-text-label')
-weight_actual = html.P(id='node-weight', className='info-text-actual')
+weight_label = html.Td('Weight', id='info-weight', className='info-text-label',
+                       style={'backgroundColor': '#4B80CA'})
+weight_actual = html.Td(id='node-weight', className='info-text-actual',
+                        style={'backgroundColor': '#4B80CA'})
 
-level_label = html.P('Level:', className='info-text-label')
-level_actual = html.P(id='node-level', className='info-text-actual')
+level_label = html.Td('Level', id='info-level', className='info-text-label',
+                      style={'backgroundColor': '#D3A068'})
+level_actual = html.Td(id='node-level', className='info-text-actual',
+                       style={'backgroundColor': '#D3A068'})
 
-custom1_label = html.P(id='info-custom1-label', children='Custom 1:', className='info-text-label')
-custom1_actual = html.P(id='node-custom1', className='info-text-actual')
+custom1_label = html.Td('Custom 1', id='info-custom1-label', className='info-text-label',
+                        style={'backgroundColor': '#B45252'})
+custom1_actual = html.Td(id='node-custom1', className='info-text-actual',
+                         style={'backgroundColor': '#B45252'})
 
-custom2_label = html.P(id='info-custom2-label', children='Custom 2:', className='info-text-label')
-custom2_actual = html.P(id='node-custom2', className='info-text-actual')
+custom2_label = html.Td('Custom 2', id='info-custom2-label', className='info-text-label',
+                        style={'backgroundColor': '#4B4158'})
 
-custom3_label = html.P(id='info-custom3-label', children='Custom 3:', className='info-text-label')
-custom3_actual = html.P(id='node-custom3', className='info-text-actual')
+custom2_actual = html.Td(id='node-custom2', className='info-text-actual',
+                         style={'backgroundColor': '#4B4158'})
 
-first_row = dbc.Row([dbc.Col(node_label), dbc.Col(node_name),
-                     dbc.Col(custom1_label), dbc.Col(custom1_actual)])
+custom3_label = html.Td('Custom 3', id='info-custom3-label', className='info-text-label',
+                        style={'backgroundColor': '#567B79'})
+custom3_actual = html.Td(id='node-custom3', className='info-text-actual',
+                         style={'backgroundColor': '#567B79'})
 
-second_row = dbc.Row([dbc.Col(weight_label), dbc.Col(weight_actual),
-                      dbc.Col(custom2_label), dbc.Col(custom2_actual)])
+# Two table rows
+row_1 = html.Tr([
+    node_label, weight_label,
+    level_label, custom1_label,
+    custom2_label, custom3_label
+])
 
-third_row = dbc.Row([dbc.Col(level_label), dbc.Col(level_actual),
-                     dbc.Col(custom3_label), dbc.Col(custom3_actual)])
+row_2 = html.Tr([
+    node_name, weight_actual,
+    level_actual, custom1_actual,
+    custom2_actual, custom3_actual
+])
 
-info_contents = dbc.Container([dcc.Store(id='info-panel-data'),
-                               first_row, second_row, third_row], fluid=True, className='info-div',
-                              )
+# Create the table (no thead, just a tbody)
+info_table = dbc.Table(
+    html.Tbody([
+        row_1,
+        row_2,
+    ]),
+    bordered=True,
+    hover=True,
+    className='tight-table',
+    style={
+        'width': 'auto',  # Table width auto
+        'tableLayout': 'auto',  # Let columns size based on content
+        'marginLeft': 'auto',  # Center horizontally
+        'marginRight': 'auto',
+        'textAlign': 'center'
+        # 'whiteSpace': 'nowrap',   # Uncomment if you want text to never wrap
+    }
+)
+
+info_contents = dbc.Container(
+    [
+        dcc.Store(id='info-panel-data'),
+        info_table
+    ],
+    fluid=True,
+    className='info-div'
+)

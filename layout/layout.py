@@ -18,7 +18,7 @@ from .elements.control_panel.modes.settings import settings
 name_dict = {
     'Starter Tree': 1,
     'Coin Flip': 2,
-    'Game on the Line': 3,
+    'Stock Classifier': 3,
     'Wake Up': 4,
     'Chess Openings': 5,
     'Stock Tree': 6,
