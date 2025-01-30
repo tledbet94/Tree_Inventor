@@ -21,8 +21,8 @@ name_dict = {
     'Stock Classifier': 3,
     'Wake Up': 4,
     'Chess Openings': 5,
-    'Stock Tree': 6,
-    'Best Picture by Year': 7,
+    'life': 6,
+    'AGOT': 7,
     'Wives of Henry VIII': 8
 }
 
