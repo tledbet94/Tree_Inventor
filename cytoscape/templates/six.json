@@ -1,172 +1,88 @@
 {
-  "Name": "Stock Tree",
-  "Description": "Displays (part of) a stock index and its components - weights are not accurate",
-  "Author": "Tree-Inventor",
-  "theme_data": {"color": "blue", "shape": "circle", "outline":  "single-outline", "pointer":  "circle-pointer",  "background": "blue-background"},
+  "Name": "life.json",
+  "Description": null,
+  "Author": null,
+  "theme_data": {
+    "color": "blueberry",
+    "shape": "circle",
+    "outline": "single",
+    "pointer": "circle",
+    "background": "blue"
+  },
   "elements": [
     {
       "data": {
         "id": "root",
-        "label": "S&P 500",
-        "weight": 0,
+        "label": "All Life",
         "level": 1,
-        "children": 2,
+        "weight": 100,
+        "last_clicked": "False",
         "traversed": "False",
         "common": "False",
         "invalid_weight": "False",
-        "last_clicked": "False",
         "custom1": {
-          "field_name": "Company Name",
-          "field_value": "-"
+          "field_name": "Latin Name",
+          "field_value": "Biota"
         },
         "custom2": {
-          "field_name": "Industry",
-          "field_value": "-"
+          "field_name": "Estimated Origin",
+          "field_value": "\u22653.5 billion years ago"
         },
         "custom3": {
-          "field_name": "Sector",
-          "field_value": "-"
-        }
+          "field_name": "Average Lifespan",
+          "field_value": "N/A"
+        },
+        "children": 0
       },
       "position": {
-        "x": 203,
+        "x": 317,
         "y": 32
       }
     },
     {
       "data": {
-        "id": "sector-it",
-        "label": "Information Technology",
+        "id": "domain-bacteria",
+        "label": "Bacteria (Domain)",
         "level": 2,
-        "weight": 0,
+        "weight": 80,
         "custom1": {
-          "field_name": "Company Name",
-          "field_value": "-"
+          "field_name": "Latin Name",
+          "field_value": "Bacteria"
         },
         "custom2": {
-          "field_name": "Industry",
-          "field_value": "-"
+          "field_name": "Estimated Origin",
+          "field_value": "~3.5+ billion years ago"
         },
         "custom3": {
-          "field_name": "Sector",
-          "field_value": "-"
+          "field_name": "Average Lifespan",
+          "field_value": "Hours to Years (highly variable)"
         },
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "last_clicked": "False"
       },
       "position": {
-        "x": 89,
+        "x": 203,
         "y": 146
       }
     },
     {
       "data": {
-        "id": "industry-it-software",
-        "label": "Software",
-        "level": 3,
-        "weight": 0,
-        "custom1": {
-          "field_name": "Company Name",
-          "field_value": "-"
-        },
-        "custom2": {
-          "field_name": "Industry",
-          "field_value": "-"
-        },
-        "custom3": {
-          "field_name": "Sector",
-          "field_value": "-"
-        },
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
-      },
-      "position": {
-        "x": 89,
-        "y": 260
-      }
-    },
-    {
-      "data": {
-        "id": "msft",
-        "label": "MSFT",
-        "level": 4,
-        "weight": 100,
-        "custom1": {
-          "field_name": "Company Name",
-          "field_value": "Microsoft Corp"
-        },
-        "custom2": {
-          "field_name": "Industry",
-          "field_value": "Software"
-        },
-        "custom3": {
-          "field_name": "Sector",
-          "field_value": "Information Technology"
-        },
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
-      },
-      "position": {
-        "x": 32,
-        "y": 374
-      }
-    },
-    {
-      "data": {
-        "id": "adbe",
-        "label": "ADBE",
-        "level": 4,
-        "weight": 100,
-        "custom1": {
-          "field_name": "Company Name",
-          "field_value": "Adobe Inc."
-        },
-        "custom2": {
-          "field_name": "Industry",
-          "field_value": "Software"
-        },
-        "custom3": {
-          "field_name": "Sector",
-          "field_value": "Information Technology"
-        },
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
-      },
-      "position": {
-        "x": 146,
-        "y": 374
-      }
-    },
-    {
-      "data": {
-        "id": "sector-financials",
-        "label": "Financials",
+        "id": "domain-archaea",
+        "label": "Archaea (Domain)",
         "level": 2,
-        "weight": 0,
+        "weight": 5,
         "custom1": {
-          "field_name": "Company Name",
-          "field_value": "-"
+          "field_name": "Latin Name",
+          "field_value": "Archaea"
         },
         "custom2": {
-          "field_name": "Industry",
-          "field_value": "-"
+          "field_name": "Estimated Origin",
+          "field_value": "~3.5+ billion years ago"
         },
         "custom3": {
-          "field_name": "Sector",
-          "field_value": "-"
+          "field_name": "Average Lifespan",
+          "field_value": "Highly variable"
         },
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "last_clicked": "False"
       },
       "position": {
         "x": 317,
@@ -175,54 +91,148 @@
     },
     {
       "data": {
-        "id": "industry-financials-diversified-banks",
-        "label": "Diversified Banks",
-        "level": 3,
-        "weight": 0,
+        "id": "domain-eukarya",
+        "label": "Eukarya (Domain)",
+        "level": 2,
+        "weight": 15,
         "custom1": {
-          "field_name": "Company Name",
-          "field_value": "-"
+          "field_name": "Latin Name",
+          "field_value": "Eukarya"
         },
         "custom2": {
-          "field_name": "Industry",
-          "field_value": "-"
+          "field_name": "Estimated Origin",
+          "field_value": "~1.6\u20132.1 billion years ago"
         },
         "custom3": {
-          "field_name": "Sector",
-          "field_value": "-"
+          "field_name": "Average Lifespan",
+          "field_value": "Highly variable"
         },
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "last_clicked": "True"
       },
       "position": {
-        "x": 317,
+        "x": 431,
+        "y": 146
+      }
+    },
+    {
+      "data": {
+        "id": "kingdom-plantae",
+        "label": "Plants (Kingdom)",
+        "level": 3,
+        "weight": 9,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Plantae"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~1.0+ billion years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "Days to Millennia"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 260,
         "y": 260
       }
     },
     {
       "data": {
-        "id": "jpm",
-        "label": "JPM",
-        "level": 4,
-        "weight": 100,
+        "id": "kingdom-animalia",
+        "label": "Animals (Kingdom)",
+        "level": 3,
+        "weight": 4.5,
         "custom1": {
-          "field_name": "Company Name",
-          "field_value": "JPMorgan Chase & Co."
+          "field_name": "Latin Name",
+          "field_value": "Animalia"
         },
         "custom2": {
-          "field_name": "Industry",
-          "field_value": "Diversified Banks"
+          "field_name": "Estimated Origin",
+          "field_value": "~600\u2013700 million years ago"
         },
         "custom3": {
-          "field_name": "Sector",
-          "field_value": "Financials"
+          "field_name": "Average Lifespan",
+          "field_value": "Days to 200+ Years"
         },
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 374,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "kingdom-fungi",
+        "label": "Fungi (Kingdom)",
+        "level": 3,
+        "weight": 1,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Fungi"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~1.0+ billion years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "Hours to many Years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 488,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "kingdom-protista",
+        "label": "Protists (Kingdom)",
+        "level": 3,
+        "weight": 0.5,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Protista"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~1.5+ billion years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "Hours to Days"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 602,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "phylum-chordata",
+        "label": "Chordates (Phylum)",
+        "level": 4,
+        "weight": 1.8,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Chordata"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~530+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "Highly variable"
+        },
+        "last_clicked": "False"
       },
       "position": {
         "x": 260,
@@ -231,26 +241,23 @@
     },
     {
       "data": {
-        "id": "bac",
-        "label": "BAC",
+        "id": "phylum-arthropoda",
+        "label": "Arthropods (Phylum)",
         "level": 4,
-        "weight": 100,
+        "weight": 1.6,
         "custom1": {
-          "field_name": "Company Name",
-          "field_value": "Bank of America Corp"
+          "field_name": "Latin Name",
+          "field_value": "Arthropoda"
         },
         "custom2": {
-          "field_name": "Industry",
-          "field_value": "Diversified Banks"
+          "field_name": "Estimated Origin",
+          "field_value": "~540+ million years ago"
         },
         "custom3": {
-          "field_name": "Sector",
-          "field_value": "Financials"
+          "field_name": "Average Lifespan",
+          "field_value": "Days to Decades"
         },
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "last_clicked": "False"
       },
       "position": {
         "x": 374,
@@ -259,98 +266,635 @@
     },
     {
       "data": {
-        "id": "edge-root-sector-it",
+        "id": "phylum-mollusca",
+        "label": "Molluscs (Phylum)",
+        "level": 4,
+        "weight": 1.1,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Mollusca"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~540+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "Months to Decades"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 488,
+        "y": 374
+      }
+    },
+    {
+      "data": {
+        "id": "class-actinopterygii",
+        "label": "Ray-Finned Fishes (Class)",
+        "level": 5,
+        "weight": 0.6,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Actinopterygii"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~420+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "1\u201350+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 32,
+        "y": 488
+      }
+    },
+    {
+      "data": {
+        "id": "class-amphibia",
+        "label": "Amphibians (Class)",
+        "level": 5,
+        "weight": 0.2,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Amphibia"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~370+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "1\u201330 years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 146,
+        "y": 488
+      }
+    },
+    {
+      "data": {
+        "id": "class-reptilia",
+        "label": "Reptiles (Class)",
+        "level": 5,
+        "weight": 0.2,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Reptilia"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~310+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "2\u2013100+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 260,
+        "y": 488
+      }
+    },
+    {
+      "data": {
+        "id": "class-aves",
+        "label": "Birds (Class)",
+        "level": 5,
+        "weight": 0.3,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Aves"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~150+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "1\u201380 years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 374,
+        "y": 488
+      }
+    },
+    {
+      "data": {
+        "id": "class-mammalia",
+        "label": "Mammals (Class)",
+        "level": 5,
+        "weight": 0.5,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Mammalia"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~200+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "2\u2013100+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 488,
+        "y": 488
+      }
+    },
+    {
+      "data": {
+        "id": "order-primates",
+        "label": "Primates (Order)",
+        "level": 6,
+        "weight": 0.1,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Primates"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~55+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "5\u201350+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 260,
+        "y": 602
+      }
+    },
+    {
+      "data": {
+        "id": "order-carnivora",
+        "label": "Carnivores (Order)",
+        "level": 6,
+        "weight": 0.15,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Carnivora"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~42+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "5\u201330+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 431,
+        "y": 602
+      }
+    },
+    {
+      "data": {
+        "id": "order-rodentia",
+        "label": "Rodents (Order)",
+        "level": 6,
+        "weight": 0.15,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Rodentia"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~56+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "1\u201310+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 545,
+        "y": 602
+      }
+    },
+    {
+      "data": {
+        "id": "order-others",
+        "label": "Other Mammal Orders",
+        "level": 6,
+        "weight": 0.1,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Various"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "40\u2013100+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "Varies"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 659,
+        "y": 602
+      }
+    },
+    {
+      "data": {
+        "id": "family-hominidae",
+        "label": "Great Apes (Family)",
+        "level": 7,
+        "weight": 0.03,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Hominidae"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~14+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "20\u201360+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 146,
+        "y": 716
+      }
+    },
+    {
+      "data": {
+        "id": "family-cercopithecidae",
+        "label": "Old World Monkeys (Family)",
+        "level": 7,
+        "weight": 0.04,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Cercopithecidae"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~25+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "10\u201340+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 260,
+        "y": 716
+      }
+    },
+    {
+      "data": {
+        "id": "family-hylobatidae",
+        "label": "Gibbons (Family)",
+        "level": 7,
+        "weight": 0.03,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Hylobatidae"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~20+ million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "20\u201340+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 374,
+        "y": 716
+      }
+    },
+    {
+      "data": {
+        "id": "genus-homo",
+        "label": "Humans (Genus)",
+        "level": 8,
+        "weight": 0.01,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Homo"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~2.8 million years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "N/A (genus-level average)"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 32,
+        "y": 830
+      }
+    },
+    {
+      "data": {
+        "id": "genus-pan",
+        "label": "Chimpanzees (Genus)",
+        "level": 8,
+        "weight": 0.01,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Pan"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~6\u20138 million years ago (split from human lineage)"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "30\u201350 years in the wild"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 146,
+        "y": 830
+      }
+    },
+    {
+      "data": {
+        "id": "genus-gorilla",
+        "label": "Gorillas (Genus)",
+        "level": 8,
+        "weight": 0.01,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Gorilla"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~8\u20139 million years ago (split from other apes)"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "30\u201340+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 283.2346143649471,
+        "y": 829.4467948960727
+      }
+    },
+    {
+      "data": {
+        "id": "species-homo-sapiens",
+        "label": "Humans",
+        "level": 9,
+        "weight": 0.009,
+        "custom1": {
+          "field_name": "Latin Name",
+          "field_value": "Homo sapiens"
+        },
+        "custom2": {
+          "field_name": "Estimated Origin",
+          "field_value": "~200\u2013300 thousand years ago"
+        },
+        "custom3": {
+          "field_name": "Average Lifespan",
+          "field_value": "70\u201380+ years"
+        },
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 32,
+        "y": 944
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-bacteria",
         "source": "root",
-        "target": "sector-it",
-        "weight": 75,
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "target": "domain-bacteria",
+        "last_clicked": "False"
       }
     },
     {
       "data": {
-        "id": "edge-sector-it-industry-it-software",
-        "source": "sector-it",
-        "target": "industry-it-software",
-        "weight": 100,
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
-      }
-    },
-    {
-      "data": {
-        "id": "edge-industry-it-software-msft",
-        "source": "industry-it-software",
-        "target": "msft",
-        "weight": 90,
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
-      }
-    },
-    {
-      "data": {
-        "id": "edge-industry-it-software-adbe",
-        "source": "industry-it-software",
-        "target": "adbe",
-        "weight": 10,
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
-      }
-    },
-    {
-      "data": {
-        "id": "edge-root-sector-financials",
+        "id": "edge-root-archaea",
         "source": "root",
-        "target": "sector-financials",
-        "weight": 25,
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "target": "domain-archaea",
+        "last_clicked": "False"
       }
     },
     {
       "data": {
-        "id": "edge-sector-financials-industry-financials-diversified-banks",
-        "source": "sector-financials",
-        "target": "industry-financials-diversified-banks",
-        "weight": 100,
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "id": "edge-root-eukarya",
+        "source": "root",
+        "target": "domain-eukarya",
+        "last_clicked": "False"
       }
     },
     {
       "data": {
-        "id": "edge-industry-financials-diversified-banks-jpm",
-        "source": "industry-financials-diversified-banks",
-        "target": "jpm",
-        "weight": 70,
-        "last_clicked": "False",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "id": "edge-eukarya-plantae",
+        "source": "domain-eukarya",
+        "target": "kingdom-plantae",
+        "last_clicked": "False"
       }
     },
     {
       "data": {
-        "id": "edge-industry-financials-diversified-banks-bac",
-        "source": "industry-financials-diversified-banks",
-        "target": "bac",
-        "weight": 30,
-        "last_clicked": "True",
-        "traversed": "False",
-        "common": "False",
-        "invalid_weight": "False"
+        "id": "edge-eukarya-animalia",
+        "source": "domain-eukarya",
+        "target": "kingdom-animalia",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-eukarya-fungi",
+        "source": "domain-eukarya",
+        "target": "kingdom-fungi",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-eukarya-protista",
+        "source": "domain-eukarya",
+        "target": "kingdom-protista",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-animalia-chordata",
+        "source": "kingdom-animalia",
+        "target": "phylum-chordata",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-animalia-arthropoda",
+        "source": "kingdom-animalia",
+        "target": "phylum-arthropoda",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-animalia-mollusca",
+        "source": "kingdom-animalia",
+        "target": "phylum-mollusca",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-chordata-actinopterygii",
+        "source": "phylum-chordata",
+        "target": "class-actinopterygii",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-chordata-amphibia",
+        "source": "phylum-chordata",
+        "target": "class-amphibia",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-chordata-reptilia",
+        "source": "phylum-chordata",
+        "target": "class-reptilia",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-chordata-aves",
+        "source": "phylum-chordata",
+        "target": "class-aves",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-chordata-mammalia",
+        "source": "phylum-chordata",
+        "target": "class-mammalia",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-mammalia-primates",
+        "source": "class-mammalia",
+        "target": "order-primates",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-mammalia-carnivora",
+        "source": "class-mammalia",
+        "target": "order-carnivora",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-mammalia-rodentia",
+        "source": "class-mammalia",
+        "target": "order-rodentia",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-mammalia-others",
+        "source": "class-mammalia",
+        "target": "order-others",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-primates-hominidae",
+        "source": "order-primates",
+        "target": "family-hominidae",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-primates-cercopithecidae",
+        "source": "order-primates",
+        "target": "family-cercopithecidae",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-primates-hylobatidae",
+        "source": "order-primates",
+        "target": "family-hylobatidae",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-hominidae-homo",
+        "source": "family-hominidae",
+        "target": "genus-homo",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-hominidae-pan",
+        "source": "family-hominidae",
+        "target": "genus-pan",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-hominidae-gorilla",
+        "source": "family-hominidae",
+        "target": "genus-gorilla",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-homo-sapiens",
+        "source": "genus-homo",
+        "target": "species-homo-sapiens",
+        "last_clicked": "False"
       }
     }
   ]

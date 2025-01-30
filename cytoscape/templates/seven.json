@@ -1,596 +1,1719 @@
 {
-    "Name": "Best Picture by Year",
-    "Description": "Contains Academy-Award Winners of Best Picture by year",
-    "Author": "Tree-Inventor",
-    "theme_data": {"color": "blue", "shape": "circle", "outline":  "single-outline", "pointer":  "circle-pointer",  "background": "blue-background"},
-    "elements": [
-        {
-            "data": {
-                "id": "root",
-                "label": "Best Picture Winners",
-                "level": 1,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": 0,
-                "y": 0
-            }
+  "Name": "AGOT.json",
+  "Description": "At the beginning of the book \"A Game of Thrones\"",
+  "Author": "tledbet94",
+  "theme_data": {
+    "color": "blueberry",
+    "shape": "circle",
+    "outline": "single",
+    "pointer": "circle",
+    "background": "blue"
+  },
+  "elements": [
+    {
+      "data": {
+        "id": "root",
+        "label": "Robert Baratheon",
+        "level": 1,
+        "weight": 5,
+        "last_clicked": "False",
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "custom1": {
+          "field_name": "Land",
+          "field_value": "The Iron Throne"
         },
-        {
-            "data": {
-                "id": "decade-1990s",
-                "label": "1990s",
-                "level": 2,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": -200,
-                "y": 100
-            }
+        "custom2": {
+          "field_name": "Heir",
+          "field_value": "Joffrey Baratheon"
         },
-        {
-            "data": {
-                "id": "decade-2000s",
-                "label": "2000s",
-                "level": 2,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": 200,
-                "y": 100
-            }
+        "custom3": {
+          "field_name": "Symbol",
+          "field_value": "Stag"
         },
-        {
-            "data": {
-                "id": "year-1990",
-                "label": "1990",
-                "level": 3,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": -250,
-                "y": 200
-            }
+        "children": 0
+      },
+      "position": {
+        "x": 2369,
+        "y": 32
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2",
+        "label": "Eddard Stark",
+        "weight": 80,
+        "level": 2,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
         },
-        {
-            "data": {
-                "id": "year-1994",
-                "label": "1994",
-                "level": 3,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": -200,
-                "y": 200
-            }
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Rob Stark"
         },
-        {
-            "data": {
-                "id": "year-1999",
-                "label": "1999",
-                "level": 3,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": -150,
-                "y": 200
-            }
-        },
-        {
-            "data": {
-                "id": "year-2000",
-                "label": "2000",
-                "level": 3,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": 150,
-                "y": 200
-            }
-        },
-        {
-            "data": {
-                "id": "year-2005",
-                "label": "2005",
-                "level": 3,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": 200,
-                "y": 200
-            }
-        },
-        {
-            "data": {
-                "id": "year-2009",
-                "label": "2009",
-                "level": 3,
-                "weight": 0,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "-"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "-"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "-"
-                }
-            },
-            "position": {
-                "x": 250,
-                "y": 200
-            }
-        },
-        {
-            "data": {
-                "id": "movie-dances-with-wolves",
-                "label": "Dances with Wolves",
-                "level": 4,
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "Western, Drama"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "Kevin Costner"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "Kevin Costner"
-                }
-            },
-            "position": {
-                "x": -250,
-                "y": 300
-            }
-        },
-        {
-            "data": {
-                "id": "movie-forrest-gump",
-                "label": "Forrest Gump",
-                "level": 4,
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "Drama, Romance"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "Robert Zemeckis"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "Tom Hanks"
-                }
-            },
-            "position": {
-                "x": -200,
-                "y": 300
-            }
-        },
-        {
-            "data": {
-                "id": "movie-american-beauty",
-                "label": "American Beauty",
-                "level": 4,
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "Drama"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "Sam Mendes"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "Kevin Spacey"
-                }
-            },
-            "position": {
-                "x": -150,
-                "y": 300
-            }
-        },
-        {
-            "data": {
-                "id": "movie-gladiator",
-                "label": "Gladiator",
-                "level": 4,
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "Action, Drama"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "Ridley Scott"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "Russell Crowe"
-                }
-            },
-            "position": {
-                "x": 150,
-                "y": 300
-            }
-        },
-        {
-            "data": {
-                "id": "movie-crash",
-                "label": "Crash",
-                "level": 4,
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "Drama, Crime"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "Paul Haggis"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "Sandra Bullock"
-                }
-            },
-            "position": {
-                "x": 200,
-                "y": 300
-            }
-        },
-        {
-            "data": {
-                "id": "movie-the-hurt-locker",
-                "label": "The Hurt Locker",
-                "level": 4,
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False",
-                "custom1": {
-                    "field_name": "Genre",
-                    "field_value": "War, Drama"
-                },
-                "custom2": {
-                    "field_name": "Director",
-                    "field_value": "Kathryn Bigelow"
-                },
-                "custom3": {
-                    "field_name": "Notable Actor",
-                    "field_value": "Jeremy Renner"
-                }
-            },
-            "position": {
-                "x": 250,
-                "y": 300
-            }
-        },
-        {
-            "data": {
-                "id": "edge-best-picture-winners-decade-1990s",
-                "source": "root",
-                "target": "decade-1990s",
-                "weight": 50,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-best-picture-winners-decade-2000s",
-                "source": "root",
-                "target": "decade-2000s",
-                "weight": 50,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-decade-1990s-year-1990",
-                "source": "decade-1990s",
-                "target": "year-1990",
-                "weight": 34,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-decade-1990s-year-1994",
-                "source": "decade-1990s",
-                "target": "year-1994",
-                "weight": 33,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-decade-1990s-year-1999",
-                "source": "decade-1990s",
-                "target": "year-1999",
-                "weight": 33,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-decade-2000s-year-2000",
-                "source": "decade-2000s",
-                "target": "year-2000",
-                "weight": 34,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-decade-2000s-year-2005",
-                "source": "decade-2000s",
-                "target": "year-2005",
-                "weight": 33,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-decade-2000s-year-2009",
-                "source": "decade-2000s",
-                "target": "year-2009",
-                "weight": 33,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-year-1990-movie-dances-with-wolves",
-                "source": "year-1990",
-                "target": "movie-dances-with-wolves",
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-year-1994-movie-forrest-gump",
-                "source": "year-1994",
-                "target": "movie-forrest-gump",
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-year-1999-movie-american-beauty",
-                "source": "year-1999",
-                "target": "movie-american-beauty",
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-year-2000-movie-gladiator",
-                "source": "year-2000",
-                "target": "movie-gladiator",
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-year-2005-movie-crash",
-                "source": "year-2005",
-                "target": "movie-crash",
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
-        },
-        {
-            "data": {
-                "id": "edge-year-2009-movie-the-hurt-locker",
-                "source": "year-2009",
-                "target": "movie-the-hurt-locker",
-                "weight": 100,
-                "last_clicked": "False",
-                "traversed": "False",
-                "common": "False",
-                "invalid_weight": "False"
-            }
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Direwolf"
         }
-    ]
+      },
+      "position": {
+        "x": 602,
+        "y": 146
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-20",
+        "source": "root-child-2",
+        "target": "root-child-2-child-20",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-5",
+        "label": "Tywin Lannister",
+        "weight": 100,
+        "level": 2,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Westerlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Tyrion Lannister"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Lion"
+        }
+      },
+      "position": {
+        "x": 1457,
+        "y": 146
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-6",
+        "label": "Mace Tyrell",
+        "weight": 60,
+        "level": 2,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Reach"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Willas Tyrell"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Rose"
+        }
+      },
+      "position": {
+        "x": 1913,
+        "y": 146
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-7",
+        "label": "Balon Greyjoy",
+        "weight": 60,
+        "level": 2,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Iron Islands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Theon Greyjoy"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Kraken"
+        }
+      },
+      "position": {
+        "x": 2369,
+        "y": 146
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-8",
+        "label": "Doran Martell",
+        "weight": 85,
+        "level": 2,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "Dorne"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Trystane Martell"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Sun and Spear"
+        }
+      },
+      "position": {
+        "x": 2825,
+        "y": 146
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-9",
+        "label": "Hoster Tully",
+        "weight": 40,
+        "level": 2,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Riverlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Edmure Tully"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Trout"
+        }
+      },
+      "position": {
+        "x": 3281,
+        "y": 146
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-11",
+        "label": "Roose Bolton",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Ramsay Bolton"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Flayed Man"
+        }
+      },
+      "position": {
+        "x": 260,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-12",
+        "label": "Wyman Manderly",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Wylis Manderly"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Merman"
+        }
+      },
+      "position": {
+        "x": 374,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-13",
+        "label": "Rickard Karstark",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Harrion Karstark"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Sunburst"
+        }
+      },
+      "position": {
+        "x": 488,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-14",
+        "label": "Greatjon Umber",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Smalljon Umber"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Giant"
+        }
+      },
+      "position": {
+        "x": 602,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-15",
+        "label": "Galbart Glover",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Robett Glover"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Glove"
+        }
+      },
+      "position": {
+        "x": 716,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-16",
+        "label": "Maege Mormont",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Alysane Mormont"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Bear"
+        }
+      },
+      "position": {
+        "x": 830,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-17",
+        "label": "Howland Reed",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Meera Reed"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Cranogman"
+        }
+      },
+      "position": {
+        "x": 944,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-18",
+        "label": "Halys Hornwood",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Daryn Hornwood"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Black Bull Moose"
+        }
+      },
+      "position": {
+        "x": 1058,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-19",
+        "label": "Medger Cerwyn",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Clay Cerwyn"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Battle-Axe"
+        }
+      },
+      "position": {
+        "x": 1172,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-20",
+        "label": "Helman Tallhart",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Leobald Tallhart"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Pine"
+        }
+      },
+      "position": {
+        "x": 32,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-2-child-21",
+        "label": "Barbrey Dustin",
+        "weight": 100,
+        "level": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The North"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Raven"
+        }
+      },
+      "position": {
+        "x": 146,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-root-child-2",
+        "source": "root",
+        "target": "root-child-2",
+        "weight": 8,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-21",
+        "source": "root-child-2",
+        "target": "root-child-2-child-21",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-root-child-5",
+        "source": "root",
+        "target": "root-child-5",
+        "weight": 35,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-root-child-6",
+        "source": "root",
+        "target": "root-child-6",
+        "weight": 15,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-root-child-7",
+        "source": "root",
+        "target": "root-child-7",
+        "weight": 9,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-root-child-8",
+        "source": "root",
+        "target": "root-child-8",
+        "weight": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-root-child-9",
+        "source": "root",
+        "target": "root-child-9",
+        "weight": 5,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-11",
+        "source": "root-child-2",
+        "target": "root-child-2-child-11",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-12",
+        "source": "root-child-2",
+        "target": "root-child-2-child-12",
+        "weight": 5,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-13",
+        "source": "root-child-2",
+        "target": "root-child-2-child-13",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-14",
+        "source": "root-child-2",
+        "target": "root-child-2-child-14",
+        "weight": 3,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-15",
+        "source": "root-child-2",
+        "target": "root-child-2-child-15",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-16",
+        "source": "root-child-2",
+        "target": "root-child-2-child-16",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-17",
+        "source": "root-child-2",
+        "target": "root-child-2-child-17",
+        "weight": 2,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-18",
+        "source": "root-child-2",
+        "target": "root-child-2-child-18",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-2-root-child-2-child-19",
+        "source": "root-child-2",
+        "target": "root-child-2-child-19",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-4",
+        "label": "Lysa Arryn",
+        "weight": 1,
+        "level": 2,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False",
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Vale"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Robin Arryn"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Falcon"
+        }
+      },
+      "position": {
+        "x": 3737,
+        "y": 146
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-root-child-4",
+        "source": "root",
+        "target": "root-child-4",
+        "weight": 20,
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-4-child-1",
+        "label": "Yohn Royce",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Vale"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Robar Royce"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Runic Bronze"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 3566,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-4-child-2",
+        "label": "Anya Waynwood",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Vale"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Morton Waynwood"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Broken Wheel"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 3680,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-4-child-3",
+        "label": "Peter Baelish",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Vale"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Mockingbird"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 3794,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-4-child-4",
+        "label": "Lyn Corbray",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Vale"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "none"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Heart's Blood"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 3908,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-5-child-1",
+        "label": "Damon Marbrand",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Westerlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Addam Marbrand"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Burning Tree"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 1286,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-5-child-2",
+        "label": "Roland Crakehall",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Westerlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Lyle Crakehall"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Brindle Boar"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 1400,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-5-child-3",
+        "label": "Leo Lefford",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Westerlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Golden Bend"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 1514,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-5-child-4",
+        "label": "Tybolt Sarsfield",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Westerlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Green Arrow"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 1628,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-6-child-1",
+        "label": "Leyton Hightower",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Reach"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Baelor Hightower"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "White Tower"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 1742,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-6-child-2",
+        "label": "Paxter Redwyne",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Reach"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Horus Redwyne"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Grapes"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 1856,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-6-child-3",
+        "label": "Randyll Tarly",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Reach"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Dickon Tarly"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Huntsman"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 1970,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-6-child-4",
+        "label": "Alester Florent",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Reach"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Fox"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2084,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-7-child-1",
+        "label": "Rodrik Harlaw",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Iron Islands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Silver Scythe"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2198,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-7-child-2",
+        "label": "Dunstan Drumm",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Iron Islands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Denys Drumm"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Bone Hand"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2312,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-7-child-3",
+        "label": "Gorold Goodbrother",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Iron Islands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Band of Gold"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2426,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-7-child-4",
+        "label": "Sawane Botley",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Iron Islands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Silver Cod"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2540,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-8-child-1",
+        "label": "Anders Yronwood",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "Dorne"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Cletus Yronwood"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Crossed Arrows"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2654,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-8-child-2",
+        "label": "Edric Dayne",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "Dorne"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "no known heir"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Falling Star"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2768,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-8-child-3",
+        "label": "Harmyn Uller",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "Dorne"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Fiery Chalice"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2882,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-8-child-4",
+        "label": "Franklyn Fowler",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "Dorne"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Hooded Hawk"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 2996,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-9-child-1",
+        "label": "Walder Frey",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Riverlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Stevron Frey"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Two Towers"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 3110,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-9-child-2",
+        "label": "Jason Mallister",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Riverlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Patrek Mallister"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Silver Eagle"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 3224,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-9-child-3",
+        "label": "Tytos Blackwood",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Riverlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "Lucas Blackwood"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Dead Weirwood"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 3338,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "root-child-9-child-4",
+        "label": "Jonos Bracken",
+        "weight": 100,
+        "level": 3,
+        "custom1": {
+          "field_name": "Custom One",
+          "field_value": "The Riverlands"
+        },
+        "custom2": {
+          "field_name": "Custom Two",
+          "field_value": "unrecorded"
+        },
+        "custom3": {
+          "field_name": "Custom Three",
+          "field_value": "Broken Bone"
+        },
+        "traversed": "False",
+        "common": "False",
+        "invalid_weight": "False",
+        "last_clicked": "False"
+      },
+      "position": {
+        "x": 3452,
+        "y": 260
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-4-child-1",
+        "source": "root-child-4",
+        "target": "root-child-4-child-1",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-4-child-2",
+        "source": "root-child-4",
+        "target": "root-child-4-child-2",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-4-child-3",
+        "source": "root-child-4",
+        "target": "root-child-4-child-3",
+        "weight": 89,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "True",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-4-child-4",
+        "source": "root-child-4",
+        "target": "root-child-4-child-4",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-5-child-1",
+        "source": "root-child-5",
+        "target": "root-child-5-child-1",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-5-child-2",
+        "source": "root-child-5",
+        "target": "root-child-5-child-2",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-5-child-3",
+        "source": "root-child-5",
+        "target": "root-child-5-child-3",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-5-child-4",
+        "source": "root-child-5",
+        "target": "root-child-5-child-4",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-6-child-1",
+        "source": "root-child-6",
+        "target": "root-child-6-child-1",
+        "weight": 15,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-6-child-2",
+        "source": "root-child-6",
+        "target": "root-child-6-child-2",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-6-child-3",
+        "source": "root-child-6",
+        "target": "root-child-6-child-3",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-6-child-4",
+        "source": "root-child-6",
+        "target": "root-child-6-child-4",
+        "weight": 5,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-7-child-1",
+        "source": "root-child-7",
+        "target": "root-child-7-child-1",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-7-child-2",
+        "source": "root-child-7",
+        "target": "root-child-7-child-2",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-7-child-3",
+        "source": "root-child-7",
+        "target": "root-child-7-child-3",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-7-child-4",
+        "source": "root-child-7",
+        "target": "root-child-7-child-4",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-8-child-1",
+        "source": "root-child-8",
+        "target": "root-child-8-child-1",
+        "weight": 5,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-8-child-2",
+        "source": "root-child-8",
+        "target": "root-child-8-child-2",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-8-child-3",
+        "source": "root-child-8",
+        "target": "root-child-8-child-3",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-8-child-4",
+        "source": "root-child-8",
+        "target": "root-child-8-child-4",
+        "weight": 0,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-9-child-1",
+        "source": "root-child-9",
+        "target": "root-child-9-child-1",
+        "weight": 20,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-9-child-2",
+        "source": "root-child-9",
+        "target": "root-child-9-child-2",
+        "weight": 10,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-9-child-3",
+        "source": "root-child-9",
+        "target": "root-child-9-child-3",
+        "weight": 15,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    },
+    {
+      "data": {
+        "id": "edge-root-child-9-child-4",
+        "source": "root-child-9",
+        "target": "root-child-9-child-4",
+        "weight": 15,
+        "traversed": "False",
+        "common": "False",
+        "last_clicked": "False",
+        "invalid_weight": "False"
+      }
+    }
+  ]
 }

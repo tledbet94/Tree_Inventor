@@ -65,10 +65,11 @@ info_table = dbc.Table(
     }
 )
 
+
 info_contents = dbc.Container(
     [
         dcc.Store(id='info-panel-data'),
-        info_table
+        dbc.Row(dbc.Col(info_table, align='center'), justify='center')
     ],
     fluid=True,
     className='info-div'

@@ -70,12 +70,12 @@ body {
     background-color: #4B4158;
     border-radius: 3vh;
     color: #F2F0E5;
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
     /* You can also adjust left/right padding if you want
        space inside each cell horizontally: */
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 
     line-height: 1.0;
     width: auto;
@@ -92,7 +92,7 @@ body {
     padding: 0.5vh;
 
     /* Let the container auto-adjust, but cap at 24vh */
-    height: auto;          /* container grows/shrinks with content */
+    height: 12vh;          /* container grows/shrinks with content */
     max-height: 12vh;      /* cap the total height */
 }
 
@@ -115,7 +115,7 @@ body {
 
 
 .info-text-label {
-    font-size: auto;
+    font-size: 2vh;
     /* colors and ofset create 3d effect */
     text-shadow:
         1px 1px 0px #9a9a97,
@@ -125,7 +125,7 @@ body {
 }
 
 .info-text-actual {
-    font-size: auto;
+    font-size: 2vh;
     text-align: center;
     /* colors and ofset create 3d effect */
     text-shadow:
