@@ -1,12 +1,12 @@
 from dash import html
 import dash_bootstrap_components as dbc
 
-objective_paragraph = ("Build Trees!. Weights and custom fields are "
+objective_paragraph = ("This is a tree-building app. Weights and custom fields are "
                        " in each tree. There many customization possibilities, "
                        "and you can save (load) to (from) JSON.")
 
 credits_paragraph = ("Built using Dash Cytoscape; extends Cytoscape.js; extends "
-                     "Cytoscape.js-dagre. Check out the book button in home.")
+                     "Cytoscape.js-dagre.")
 
 user_card = dbc.Card(
     dbc.CardBody(

@@ -78,7 +78,7 @@ ai_button = dbc.Button(
     id='ai-button',
     children=html.I(children='AI', className="icon-style-bottom-row"),
     className="bottom-row-button",
-    disabled=False,
+    style={"display": "none"},  # hides it entirely
 )
 
 dummy_button = dbc.Button(
