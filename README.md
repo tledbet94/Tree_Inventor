@@ -1,12 +1,6 @@
-![image](https://github.com/user-attachments/assets/6b867a05-a45a-4ad8-914d-57da99e2a98a)
+# Tree_Inventor
+Repo of the app "Tree_Inventor"
 
-color palette: https://lospec.com/palette-list/cc-29 CC29 by Alpha6
+This is an app to build, modify, traverse, and explore Directed Acyclic Graph (DAG) trees. DAG trees create opportunities to represent many types of concepts in a clear data structure form. This app was developed using Plotly Dash. 
 
-Treeinventor is an application that works with Directed Acyclic Graph (DAG) style "trees". Dash cytoscape is the framework used to represent DAG trees. Features include saving and loading trees in JSON format, adding / deleting / renaming nodes, modifying weights (to the structure given in the app), setting custom field labels and values (values at node level), traversal, eight template trees to view, and visual theme options. 
-
-The goal of treeinventor is to provide a flexible, user-friendly, and customizable method to create and view "trees". The integration of custom fields and weights should allow for a wide range of tree types. Dash cytoscape provides a natural interface to view and modify trees. 
-
-From a code standpoint, treeinventor centers around the callback function to the cytoscape elements (tree) itself. To prevent a single callback from being enormous, a system is used where each major function e.g. the tree "editor" (add, remove, rename) works on its own copy of elements and returns the copy to elements / the tree itself. Seperate from cytoscape callback functions are all non-cytoscape callbacks which are more straightforward. Overall, a modular approach is used - there are five main sections: switch view, control panel, cytoscape, info-panel, and button-row (at the bottom). All the modes of the app center around the control panel changing - similar to the cytoscape callback, divide & conquer is relied upon for the control panel which is split up into its various modes that are selected in button row. A style.css file is used to style the app with some style overrides present. Searching in the IDE is essential to navigating the styles.css. There is an approach taken in styles.css and outside of it to help manage different screen sizes and especially small screen sizes. The file structure aggregates the highest level aspects of the app and works down, splitting in differing areas like callback vs layout elements. 
-
-As mentioned above and in Treeinventor, credit to Cytoscape.js-dagre, Cytoscape.js, Dash Cytoscape, and python Dash itself. Credit also goes to Alpha6 and the CC29 palette which supplied every color used in treeinventor. Dash bootstrap components is relied upon for most non-cytoscape aspects and the Morph theme is used as a foundation.
-
+<img width="2529" height="1328" alt="image" src="https://github.com/user-attachments/assets/3fbbb67e-7314-45cc-8f45-eebc11d90753" />
