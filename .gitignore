@@ -31,3 +31,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# IDE / Editor files
+.vscode/
+.idea/
